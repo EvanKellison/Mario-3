@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
+  <style>
+      #pyramid {
+          line-height: 0;
+          font-size: 30px;
+      }
 
-        #pyramid {
-            line-height: 0;
-            font-size: 30px;
-        }
-
-        body {
-            font-family: "Courier New", monospace;
-            text-align: center;
-        }
-    </style>
+      body {
+          font-family: "Courier New", monospace;
+          text-align: center;
+      }
+  </style>
 </head>
-<body >
-    <h1>Mario 3</h1>
 
-    <br>
+<body>
+  <h1>Mario 3</h1>
 
-    <p>When you say</p>
+  <br>
 
-    <p><strong>Draw a pyramid</strong></p>
+  <p>When you say</p>
 
-    <p>I say:</p>
+  <p><strong>Draw a pyramid</strong></p>
 
-    <br>
+  <p>I say:</p>
 
-    <label>How high?</label>
+  <br>
 
-    <input type="text" id="height"/>
+  <label>How high?</label>
 
-    <br><br>
+  <input type="text" id="height" />
 
-    <button>Draw a pyramid</button>
+  <br><br>
+  
+  <button id="drawPyramidButton">Draw a pyramid</button>
 
-    <br><br>
+  <br><br>
 
-    <div id="pyramid"></div>
+  <div id="pyramidContainer"></div> 
 
-    <script src="mario.js"></script>
+  <script src="mario.js"></script>
 </body>
 </html>
